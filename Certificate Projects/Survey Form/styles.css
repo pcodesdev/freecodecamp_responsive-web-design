@@ -1,0 +1,60 @@
+#body{
+    margin:0;
+    background-image:url(https://unsplash.com/photos/olVJDJYKPSI);
+    background-color:rgba(180,220,90, 0.8)
+  }
+  
+  #title, #description{
+    text-align:center;
+  }
+  #survey-form{
+    margin:auto;
+    padding:4px;
+    background:linear-gradient(#67fd3e,#cc74ff);
+    align-item:center;
+    max-width: 500px;
+    min-width:300px;
+    width:60vw;
+  }
+  
+  #name-label,#email-label, #number-label,#dropdown{
+    font-size:1.2em;
+    display:block;
+    margin: 20 30;
+  }
+  input[type='text'],input[type='email'],input[type='number']{
+    
+    border-radius:8px;
+    width:70%;
+    box-shadow:3px -5px rgba(20,120,200,0.5);
+    color:black;
+    height:2em;
+    padding-reft:3px;
+  }
+  
+  .nationality{
+    margin:3px auto;
+    padding: 4px 20%;
+    
+    /* display:inline-block; */
+  }
+  
+  .gender{
+      margin:3px auto;
+  }
+  
+  textarea{
+    display:block;
+    margin:auto;
+    margin: 2em;
+    border: 2px dotted black;
+  
+  }
+  input[type='submit']{
+    margin:auto;
+    display: block;
+    width:50%;
+    height:2em;
+    font-size:1em;
+    border-radius:8px;
+  }
